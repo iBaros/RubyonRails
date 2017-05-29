@@ -1,0 +1,124 @@
+<%= render "dashboardpage/header.html.erb" %>
+
+<br>
+
+<div class="portlet light bordered">
+    <div class="portlet-title">
+        <div class="caption">
+            <i class="icon-bubble font-hide hide"></i>
+            <span class="caption-subject font-hide bold uppercase">Notifications</span>
+        </div>
+        <div class="actions">
+            <div class="portlet-input input-inline">
+                <div class="input-icon right">
+                    <i class="icon-magnifier"></i>
+                    <input type="text" class="form-control input-circle" placeholder="search..."> </div>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body" id="chats">
+        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto;"><div class="scroller" style="height: 525px; overflow: auto; width: auto;" data-always-visible="1" data-rail-visible1="1" data-initialized="1">
+            <ul class="chats">
+                <li class="out">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> You </a>
+                        <span class="datetime"> at 20:11 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="out">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> You </a>
+                        <span class="datetime"> at 20:11 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="in">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> Support </a>
+                        <span class="datetime"> at 20:30 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="in">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> Support </a>
+                        <span class="datetime"> at 20:30 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="out">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> You </a>
+                        <span class="datetime"> at 20:33 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="in">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> Support </a>
+                        <span class="datetime"> at 20:35 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="out">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> You </a>
+                        <span class="datetime"> at 20:40 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="in">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> Support </a>
+                        <span class="datetime"> at 20:40 </span>
+                        <span class="body"> Received and Sent Requests are showed here </span>
+                    </div>
+                </li>
+                <li class="out">
+                    <img class="avatar" alt="" src="../assets/layouts/layout/img/avatar2.jpg">
+                    <div class="message">
+                        <span class="arrow"> </span>
+                        <a href="javascript:;" class="name"> You </a>
+                        <span class="datetime"> at 20:54 </span>
+                        <span class="body"> Received and Sent Requests are showed here sed diam nonummy nibh euismod tincidunt ut laoreet.
+                            </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+</div>
+        <div class="chat-form">
+            <div class="input-cont">
+                <input class="form-control" type="text" placeholder="Type a message here..."> </div>
+            <div class="btn-cont">
+                <span class="arrow"> </span>
+                <a href="" class="btn blue icn-only">
+                    <i class="fa fa-check icon-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%= render "dashboardpage/footer.html.erb" %>
+
+<script>
+    $("#page-title").html("<h4>Service Notifications</h4>");
+</script>
